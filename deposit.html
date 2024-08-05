@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deposit coins | COIMGLECS.COM</title>
+    <link rel="icon" href="/img/favicon.ico" >
+    <link rel="icon" href="../admin_icon_dir/1712961095249_1_1701813552740.png">
+    <link rel="stylesheet" href="../css/root.min.css">
+    <link rel="stylesheet" href="../css/toastr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main transaction-history">
+        <section class="top-line">
+            <div class="top-line__box">
+                <div class="top-line__left">
+                    
+                    <div class="top-line__content">
+                        <a href="index.html"><img class="header-logo-payment" src="../img/white_logo.png" alt="header-logo"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="main__box">
+            <section class="form-coins deposit">
+                <div class="form-coins__container">
+                    <div class="form-coins__left">
+                        <div class="step">
+                            <div class="step__number">
+                                1
+                            </div>
+                            <div class="step__wrapper">
+                                <div class="step__title">
+                                    Сумма для оплаты | Сеть
+                                </div>
+                                <div class="step__description">
+                                    Убедитесь, что выбранные данные верны при обмене средств на платформе
+                                </div>
+                                <div class="step__select">
+                                    <div class="select step-form-coins-deposit">
+                                        <div class="select__selected inputik">
+                                            <div class="select__name" id="pay_data">
+                                                105 TRN-20 </div>
+
+                                            <div class="select__arrow">
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div id="address_show_after" class="step">
+                            <div class="step__number">
+                                2
+                            </div>
+                            <div class="step__wrapper">
+                                <div class="step__title">
+                                    Скопировать адрес кошелька для оплаты
+                                </div>
+                                <div class="step__description">
+                                    Перейдите в ваш кошелек и вставьте адрес, который вы скопировали
+                                </div>
+                                <div class="input__01-box copy">
+                                    <label class="input__01-copyText">
+                                    
+                                    <p class="input__01 input-address inputik" id="address_input">rjrijgndknkdnfndsfkndsknkdnkndksng</p>
+                                    <button class="input__01-copyBtn input-address-btn" onclick="copyThisAddress()">
+                                        <svg width="20" height="19" viewbox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.5 11.9058C7.5 9.53335 7.5 8.34712 8.23223 7.61008C8.96447 6.87305 10.143 6.87305 12.5 6.87305L13.3333 6.87305C15.6904 6.87305 16.8689 6.87305 17.6011 7.61008C18.3333 8.34712 18.3333 9.53336 18.3333 11.9058V12.7446C18.3333 15.1171 18.3333 16.3033 17.6011 17.0404C16.8689 17.7774 15.6904 17.7774 13.3333 17.7774H12.5C10.143 17.7774 8.96447 17.7774 8.23223 17.0404C7.5 16.3033 7.5 15.1171 7.5 12.7446L7.5 11.9058Z" stroke="#656E8B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M14.1669 6.87158C14.1649 4.39118 14.1276 3.1064 13.4104 2.22668C13.2718 2.05679 13.1171 1.90102 12.9483 1.76159C12.0263 1 10.6566 1 7.91699 1C5.17742 1 3.80764 1 2.88568 1.76159C2.7169 1.90102 2.56214 2.05679 2.42362 2.22668C1.66699 3.15468 1.66699 4.53345 1.66699 7.29098C1.66699 10.0485 1.66699 11.4273 2.42362 12.3553C2.56214 12.5252 2.7169 12.6809 2.88568 12.8204C3.75967 13.5423 5.03608 13.5799 7.50033 13.5819" stroke="#656E8B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                        Copy
+                                    </button>
+                                </label>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="step">
+                            <div class="step__number">
+                                3
+                            </div>
+                            <div class="step__wrapper">
+                                <div class="step__title">
+                                    Сумма полученной криптовалюты
+                                </div>
+                                <div class="step__description">
+                                    Сумма полученной криптовалюты, которая будет отправлена на указанный Вами кошелёк
+                                </div>
+                                <div class="step__select step-form-coins-deposit-network">
+
+
+                                    <div class="select step-form-coins-network">
+                                        <div class="select__selected inputik">
+                                            <div class="select__name" id="receive_data">
+                                                TRN -20
+                                            </div>
+
+                                            <div class="select__arrow">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="select__menu">
+                                            <div class="select__menu-item">
+                                                <div class="select__name">
+                                                    Dash
+                                                    <span> (DASH)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step__number">
+                                4
+                            </div>
+                            <div class="step__wrapper">
+                                <div class="step__title">
+                                    Адрес Вашего кошелька
+                                </div>
+                                <div class="step__description">
+                                    
+                                </div>
+                                <div class="step__select step-form-coins-deposit-network">
+
+
+                                    <div class="select step-form-coins-network">
+                                        <div class="select__selected inputik">
+                                            <div class="select__name" id="receive_wallet">
+                                                3dofkodspfdnfniesfisdfnslnfdngnksdfksoekf
+                                            </div>
+
+                                            <div class="select__arrow">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="select__menu">
+                                            <div class="select__menu-item">
+                                                <div class="select__name">
+                                                    Dash
+                                                    <span> (DASH)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-coins__alert">
+                            <div class="form-coins__alert-text">
+                                Для добавления средств на баланс Вашего счета требуется 12 подтверждений сети.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-coins__right">
+                        <div class="important-information">
+                            <div class="important-information__title">Платежная информация</div>
+
+                            <div class="important-information__list">
+
+                                <ul class="list_important_info"><li>
+                                    <p>Сервис обмена:</p>
+                                    <p>bitswaper.com</p>
+                                </li>
+                                <li>
+                                    <p>Номер заказа:</p>
+                                    <p id="order_number">hello world</p>
+                                </li>
+                                <li>
+                                    <p>К получению:</p>
+                                    <p id="to_receive_text">hello world</p>
+                                </li>
+                                <li id="border_up">
+                                    <p><b>К оплате:</b></p>
+                                    <p id="to_pay_text">hello world</p>
+                                </li></ul>
+                            </div>
+
+                            <div class="important-information__info">
+                                 Проводя обмен, вы принимаете "пользовательское соглашение"
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- END FOOTER -->
+<script src="../js/payment.js"></script>
+</body>
+
+</html>

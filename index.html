@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365obmchange</title>
+    <link rel="icon" href="/img/favicon.ico" >
+    <link rel="stylesheet" href="../css/libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/libs/fonts.css">
+    <link rel="stylesheet" href="../css/libs/animate.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+   <script src="//code.jivo.ru/widget/BTnoKw6BM3" async></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="preloader">
+            <div class="preloader__loader"></div>
+        </div>
+        <header class="header">
+    <div class="container header__container">
+        <nav class="nav">
+            <div class="nav__wrapper header__wrapper">
+                <a class="nav__logo" href="index.html">
+                    <img src="../img/speedchan.png"  width="175" height="26" alt="logo">
+                </a>
+                <p class="nav__text">
+                    Работаем 24 часа
+                </p>
+            </div>
+            <div class="nav__wrapper header__menu">
+                <div class="nav__lang header__lang">
+                    <!-- <a class="nav__lang-link header__nav-lang-link nav__lang-link_active" href="/ru/index.html">RU</a> -->
+                    <!-- <a class="nav__lang-link header__nav-lang-link" href="/en/index.html">EN</a> -->
+                </div>
+                <ul class="nav__list header__list">
+                    <li class="nav__item header__item">
+                        <a class="nav__link" href="https://t.me/CryptoSupportBot">Поддержка</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a class="nav__link" href="rules.html">Правила</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a class="nav__link" href="partners.html">Партнёрам</a>
+                    </li>
+                    <li class="nav__item header__item">
+                        <a class="nav__link" href="index.html#reviews">Отзывы</a>
+                    </li>
+                </ul>
+                <!-- <a class="btn btn_background_light_blue nav__btn header__btn" href="auth1.html?auth=signin">Войти</a>
+                <a class="btn btn_background_blue nav__btn header__btn" href="auth.html?auth=signup">Регистрация</a> -->
+            </div>
+            <div class="header__burger">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+            </div>
+        </nav>
+    </div>
+</header>        <div class="coins">
+            <div class="container coins__container">
+                <div class="coins__img coins__img_usdt wow animate__fadeInLeft" data-wow-delay=".5s">
+                    <img src="../img/coins/usdt.svg" alt="usdt">
+                </div>
+                <div class="coins__img coins__img_btc wow animate__fadeInRight" data-wow-delay=".5s">
+                    <img src="../img/coins/btc.svg" alt="btc">
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <section class="exchange">
+                <div class="container exchange__container">
+                    <h1 class="title exchange__title wow animate__fadeInUp">
+                        Надёжный и удобный обмен криптовалют
+                    </h1>
+                    <h2 class="exchange__subtitle wow animate__fadeInUp" data-wow-delay=".25s">
+                        Главная ценность, которой мы обладаем — это наша репутация и доверие наших клиентов, что
+                        подтверждает более 20 000 положительных отзывов
+                    </h2>
+                    <div class="panel exchange__panel wow animate__fadeInUp" data-wow-delay=".5s">
+                        <div class="panel__top exchange__panel-top">
+                            <div class="panel__wrapper">
+                                <div class="panel__step exchange__panel-step">
+                                    1
+                                </div>
+                                <p class="panel__text exchange__panel-step-text">
+                                    Выберите направление обмена из списков ниже
+                                </p>
+                            </div>
+                            <div class="panel__wrapper">
+                                <!-- <a class="panel__btn exchange__panel-val-btn panel__btn_active" data-type="" href="#">
+                                    Все
+                                </a> -->
+                                <!-- <a class="panel__btn exchange__panel-val-btn" data-type="_bank" href="#">
+                                    Банки
+                                </a>
+                                <a class="panel__btn exchange__panel-val-btn" data-type="_coin" href="#">
+                                    Криптовалюта
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="panel__line exchange__panel-line"></div>
+                        <div class="panel__bottom">
+                            <div class="title panel__title exchange__panel-title">
+                                Продать Bitcoin (BTC) за Ethereum (ETH)
+                            </div>
+                            <div class="panel__bottom-wrapper exchange__panel-bottom-wrapper">
+                                <div class="panel__start exchange__panel-start">
+                                    <div class="select">
+                                        <div class="select__header">
+                                            <div class="select__current" id="select__current-give">
+                                                <img class="select__img" src="../img/coins/btc.svg" alt="btc" data-coin="BTC">
+                                                Bitcoin
+                                            </div>
+                                            <div class="select__text">
+                                                <img src="../img/select/magnifier.png" alt="magnifier">
+                                                Изменить
+                                            </div>
+                                        </div>
+                                        <div class="select__body" id="select__body-give">
+                                            <div class="select__item select__item_coin"><img class="select__img" src="../img/coins/btc.svg" alt="btc"data-coin="BTC">Bitcoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/eth.svg" alt="eth"data-coin="ETH">Ethereum</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/ada.svg" alt="ada"data-coin="ADA">Cardano</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/bnb.svg" alt="bnbbsc"data-coin="BNBBSC">Binance-Coin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/dash.svg" alt="dash"data-coin="DASH">Dash</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/doge.svg" alt="doge"data-coin="DOGE">Dogecoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/ltc.svg" alt="ltc"data-coin="LTC">Litecoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/trx.svg" alt="trx"data-coin="TRX">Tron</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/usdt.svg" alt="usdttrc20"data-coin="USDTTRC20">Tether(TRC-20)</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/usdt.svg" alt="usdterc20"data-coin="USDTERC20">Tether(ERC-20)</div>                                        </div>
+                                    </div>
+                                    <div class="input__wrapper mt-10">
+                                        <input class="input" id="from" type="number" step="0.1" placeholder="Сколько отдаете" >
+                                        <p class="input__text">
+                                            BTC
+                                        </p>
+                                    </div>
+                                    <div class="panel__wrapper mt-25 exchange__panel-wrapper exchange__panel-wrapper-show">
+                                        <a class="btn btn_background_blue exchange__panel-btn create_exchange" id="exb" onclick="trap()">Перейти к оплате</a>
+                                        <p class="panel__text panel__text_small wd-260 ml-20 exchange__panel-text">
+                                            Нажимая кнопку, Вы подтверждаете свое согласие с <a class="panel__link-rules" href="rules.html">Правилами</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="panel__end exchange__panel-end">
+                                    <div class="select">
+                                        <div class="select__header">
+                                            <div class="select__current" id="select__current-get">
+                                                <img class="select__img" src="../img/coins/eth.svg" alt="eth" data-coin="ETH">
+                                                Ethereum
+                                            </div>
+                                            <div class="select__text">
+                                                <img src="../img/select/magnifier.png" alt="magnifier">
+                                                Изменить
+                                            </div>
+                                        </div>
+                                        <div class="select__body" id="select__body-get">
+                                            <div class="select__item select__item_coin"><img class="select__img" src="../img/coins/btc.svg" alt="btc"data-coin="BTC">Bitcoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/eth.svg" alt="eth"data-coin="ETH">Ethereum</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/ada.svg" alt="ada"data-coin="ADA">Cardano</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/bnb.svg" alt="bnbbsc"data-coin="BNBBSC">Binance-Coin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/dash.svg" alt="dash"data-coin="DASH">Dash</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/doge.svg" alt="doge"data-coin="DOGE">Dogecoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/ltc.svg" alt="ltc"data-coin="LTC">Litecoin</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/trx.svg" alt="trx"data-coin="TRX">Tron</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/usdt.svg" alt="usdttrc20"data-coin="USDTTRC20">Tether(TRC-20)</div><div class="select__item select__item_coin"><img class="select__img" src="../img/coins/usdt.svg" alt="usdterc20"data-coin="USDTERC20">Tether(ERC-20)</div>                                        </div>
+                                    </div>
+                                    <div class="input__wrapper mt-10">
+                                        <input type="hidden" id="to_kurs">
+                                        <input class="input" id="to" type="number" step="0.1" placeholder="Сколько получаете" disabled="True">
+                                        <p class="input__text">
+                                            ETH
+                                        </p>
+                                    </div>
+                                    <input class="input mt-10" id="input__get" type="text" placeholder="Ваш адрес Ethereum">
+                                </div>
+                                <div class="panel__wrapper mt-25 exchange__panel-wrapper exchange__panel-wrapper-hide">
+                                    <a class="btn btn_background_blue exchange__panel-btn create_exchange" id="exb" onclick="trap()">Перейти к оплате</a>
+                                    <p class="panel__text panel__text_small wd-260 ml-20 exchange__panel-text">
+                                        Нажимая кнопку, Вы подтверждаете свое согласие с <a class="panel__link-rules" href="rules.html">Правилами</a>
+                                    </p>
+                                </div>
+                                <!-- <div>
+                                    <p>Вы не заполнили все поля</p>
+                                </div> -->
+                            </div>
+                            <div id="caution_message">
+                                Вы не заполнили все поля
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="shapes">
+                <div class="container shapes__container">
+                    <img class="shapes__img shapes__img_1 wow animate__fadeInUp" data-wow-delay=".5s" src="../img/shapes/1.png" alt="shape">
+                    <img class="shapes__img shapes__img_2 wow animate__fadeInUp" data-wow-delay=".15s" src="../img/shapes/2.png" alt="shape">
+                    <img class="shapes__img shapes__img_3 wow animate__fadeInUp" data-wow-delay=".25s" src="../img/shapes/3.png" alt="shape">
+                    <img class="shapes__img shapes__img_4 wow animate__fadeInUp" data-wow-delay=".35s" src="../img/shapes/4.png" alt="shape">
+                    <img class="shapes__img shapes__img_5 wow animate__fadeInUp" data-wow-delay=".45s" src="../img/shapes/5.png" alt="shape">
+                    <img class="shapes__img shapes__img_6 wow animate__fadeInUp" data-wow-delay=".5s" src="../img/shapes/6.png" alt="shape">
+                    <img class="shapes__img shapes__img_7 wow animate__fadeInUp" data-wow-delay=".15s" src="../img/shapes/7.png" alt="shape">
+                    <img class="shapes__img shapes__img_8 wow animate__fadeInUp" data-wow-delay=".25s" src="../img/shapes/8.png" alt="shape">
+                    <img class="shapes__img shapes__img_9 wow animate__fadeInUp" data-wow-delay=".35s" src="../img/shapes/9.png" alt="shape">
+                    <img class="shapes__img shapes__img_10 wow animate__fadeInUp" data-wow-delay=".45s" src="../img/shapes/10.png" alt="shape">
+                </div>
+            </div>
+            <section class="cryptos">
+                <div class="container cryptos__container">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                        {
+                            "width": "100%",
+                            "height": "100%",
+                            "defaultColumn": "overview",
+                            "screener_type": "crypto_mkt",
+                            "displayCurrency": "USD",
+                            "colorTheme": "light",
+                            "locale": "en"
+                        }
+                    </script>
+                </div>
+                </div>
+            </section>
+            <section class="advantages">
+                <div class="container advantages__container">
+                    <h3 class="title advantages__title wow animate__fadeInUp">
+                        Наши преимущества
+                    </h3>
+                    <div class="advantages__wrapper">
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/1.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                >10 тыс отзывов
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                На независимых площадках
+                            </h6>
+                        </div>
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/2.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                Более 200
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                Направлений обмена
+                            </h6>
+                        </div>
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/3.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                15 минут
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                Время обработки
+                            </h6>
+                        </div>
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/4.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                24582 клиентов
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                Совершают обмены
+                            </h6>
+                        </div>
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/5.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                2016 год
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                Начало работы
+                            </h6>
+                        </div>
+                        <div class="advantages__block wow animate__fadeInUp" data-wow-delay=".25s">
+                            <div class="advantages__block-img">
+                                <img src="../img/advantages/icons/6.png" alt="icon">
+                            </div>
+                            <h5 class="advantages__block-title">
+                                425000
+                            </h5>
+                            <h6 class="advantages__block-subtitle">
+                                Обменов за 6 лет
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews" id="reviews">
+                <div class="container reviews__container">
+                    <div class="reviews__wrapper">
+                        <div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Александр
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    06.07.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                Попробовал обменку, решил завести со ста для начала, после прибыли продолжил с тысячи, все норм
+                                            </p>
+                                        </div>
+                                    </div><div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Дарья
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    06.07.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                Довольно быстро, хороший курс
+                                            </p>
+                                        </div>
+                                    </div><div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Владимир
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    29.06.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                Удачно нашел видео, лайткоин менял несколько раз и доволен
+                                            </p>
+                                        </div>
+                                    </div><div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Олег
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    30.06.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                За пару минут приходят деньги, наверное один из лучших обменников 
+                                            </p>
+                                        </div>
+                                    </div><div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Артур
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    01.07.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                Не редко мониторю альты, часто хорошие курсы нахожу
+                                            </p>
+                                        </div>
+                                    </div><div class="reviews__block wow animate__fadeIn" data-wow-delay=".25s">
+                                        <div class="reviews__block-top">
+                                            <img src="../img/icons/user.svg" alt="user">
+                                            <div class="reviews__block-wrapper ml-20">
+                                                <div class="reviews__block-username">
+                                                    Евгений
+                                                </div>
+                                                <div class="reviews__block-date">
+                                                    01.07.24
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="reviews__block-bottom">
+                                            <p class="reviews__block-text">
+                                                Прокрутил пару раз с 500$, обрадовался что успел поймать курс, уже рассказал друзьям про обменник
+                                            </p>
+                                        </div>
+                                    </div>                    </div>
+                    <!-- <a class="btn btn_background_blue wd-full mt-25 text-center wow animate__fadeIn" data-wow-delay=".25s" id="read_reviews" href="#">Читать все отзывы</a> -->
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container footer__container">
+        <nav class="nav footer__nav">
+            <div class="nav__wrapper footer__wrapper">
+                <a class="nav__logo footer__logo" href="index.html">
+                    <img src="../img/speedchan.png"  width="175" height="26" alt="logo">
+                </a>
+                <p class="nav__text">
+                    Работаем 24 часа
+                </p>
+            </div>
+            <div class="nav__wrapper footer__wrapper">
+                <div class="nav__lang footer__lang">
+                    <!-- <a class="nav__lang-link nav__lang-link_active" href="/ru/index.html">RU</a>
+                    <a class="nav__lang-link" href="/en/index.html">EN</a> -->
+                </div>
+                <ul class="nav__list footer__list">
+                    <li class="nav__item header__item">
+                        <a class="nav__link" href="https://t.me/Tex_supports">Поддержка</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="rules.html">Правила</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="partners.html">Партнёрам</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html#reviews">Отзывы</a>
+                    </li>
+                </ul>
+                <div class="footer__btns">
+                    <!-- <a class="btn btn_border_blue nav__btn footer__btn" href="auth1.html?auth=signin">Войти</a>
+                    <a class="btn btn_background_blue nav__btn footer__btn" href="auth.html?auth=signup">Регистрация</a> -->
+                </div>
+            </div>
+        </nav>
+    </div>
+</footer>    </div>
+    <input type="hidden" id="coin_dict" value='{"Bitcoin":{"type":"crypto","min":"40","max":null,"procent":"1.059"},"Ethereum":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Cardano":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Binance-Coin":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Dash":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Dogecoin":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Litecoin":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Monero":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Tron":{"type":"crypto","min":null,"max":null,"procent":"1.059"},"Tether(TRC-20)":{"type":"crypto","min":"70","max":null,"procent":"1.059"},"Tether(ERC-20)":{"type":"crypto","min":"70","max":null,"procent":"1.059"},"Tinkoff":{"type":"card","min":null,"max":null,"procent":"1.059"},"Sberbank":{"type":"card","min":null,"max":null,"procent":"1.059"},"Qiwi":{"type":"card","min":null,"max":null,"procent":"1.059"},"VTB":{"type":"card","min":null,"max":null,"procent":"1.059"},"Visa\/Mastercard(USD)":{"type":"card","min":null,"max":null,"procent":"1.059"}}'>
+    <script src="../js/libs/jquery-3.6.1.min.js"></script>
+    <script src="../js/libs/wow.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+</body>
+
+</html>
